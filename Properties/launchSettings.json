@@ -16,6 +16,15 @@
       },
       "publishAllPorts": true,
       "useSSL": false
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "launchUrl": "http://localhost:8080",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://localhost:8080"
+      },
+      "distributionName": ""
     }
   },
   "$schema": "https://json.schemastore.org/launchsettings.json"
